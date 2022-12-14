@@ -1,0 +1,44 @@
+{
+    "employees": [
+        {
+            "id": 23,
+            "name": "Daphny",
+            "company": "Scooby Doo"
+        },
+        {
+            "id": 73,
+            "name": "Buttercup",
+            "company": "Powerpuff Brigade"
+        },
+        {
+            "id": 93,
+            "name": "Blossom",
+            "company": "Powerpuff Brigade"
+        },
+        {
+            "id": 13,
+            "name": "Fred",
+            "company": "Scooby Doo"
+        },
+        {
+            "id": 89,
+            "name": "Welma",
+            "company": "Scooby Doo"
+        },
+        {
+            "id": 92,
+            "name": "Charles Xavier",
+            "company": "X-Men"
+        },
+        {
+            "id": 94,
+            "name": "Bubbles",
+            "company": "Powerpuff Brigade"
+        },
+        {
+            "id": 2,
+            "name": "Xyclops",
+            "company": "X-Men"
+        }
+    ]
+}
