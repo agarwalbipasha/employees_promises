@@ -64,13 +64,13 @@ app.get("/getDataFromID", async (req, res) => {
     const fileCreate = await writeData("./solution1.json", dataFromID);
     res.send(dataFromID);
   } catch (error) {
-    res.send(`Something went wrong`);
+    res.send(`Something went wrong ${error}`);
   }
 });
 
 app.get("/getEmployeeData", async (req, res) => {
   try {
-    const data = await getData(file);
+    const data = await getData("./data.json");
     const dataFromID = await getDatafromIDs([2, 13, 23], data);
     const fileCreate = await writeData("./solution1.json", dataFromID);
     res.send(dataFromID);
@@ -78,7 +78,6 @@ app.get("/getEmployeeData", async (req, res) => {
     res.send(`Something went wrong: ${error}`);
   }
 });
-
 
 /*2. Group data based on companies.
         { "Scooby Doo": [], "Powerpuff Brigade": [], "X-Men": []}
